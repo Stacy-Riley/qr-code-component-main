@@ -1,0 +1,37 @@
+body {
+    background-color: #D5E0EF;
+}
+
+.max-width-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 320px;
+    height: 497px;
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 16px;
+    border-radius: 15px;  
+}
+
+figure {
+    width: 288px;
+    height: 288px;
+    margin: 0;  
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
