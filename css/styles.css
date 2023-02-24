@@ -1,5 +1,6 @@
 body {
     background-color: #D5E0EF;
+    font-family: 'Outfit', sans-serif;
 }
 
 .max-width-container {
@@ -34,4 +35,15 @@ img {
     padding-left: 16px;
     padding-right: 16px;
     text-align: center;
+    width: 80%;
+}
+
+.content p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+.content h1 {
+    font-size: 22px;
+    color: #193251;
 }
