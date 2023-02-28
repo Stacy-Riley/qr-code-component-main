@@ -1,6 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
 body {
     background-color: #D5E0EF;
     font-family: 'Outfit', sans-serif;
+    height: 100%;
+    margin: 0;
 }
 
 .max-width-container {
@@ -8,42 +20,49 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+    min-height: 100%;
 }
+
 .content-wrapper {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;   
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    width: 320px;
     height: 497px;
-    background-color: hsl(0, 0%, 100%);
-    padding-top: 16px;
-    border-radius: 15px;  
+    width: 320px;  
 }
 
 figure {
-    width: 288px;
     height: 288px;
-    margin: 0;  
+    width: 288px;
+    margin: 0; 
+    margin-top: -12px; 
 }
 
 img {
+    border-radius: 10px;
     width: 100%;
 }
 
 .content {
-    padding-left: 16px;
-    padding-right: 16px;
     text-align: center;
     width: 80%;
 }
 
 .content p {
-    font-size: 15px;
     color: hsl(220, 15%, 55%);
+    font-size: 15px;
 }
 
 .content h1 {
-    font-size: 21px;
     color: #193251;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.attribution {
+    text-align: center;
 }
