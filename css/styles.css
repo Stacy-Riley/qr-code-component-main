@@ -38,7 +38,7 @@ figure {
     height: 288px;
     width: 288px;
     margin: 0; 
-    margin-top: -12px; 
+    margin-top: -6px; 
 }
 
 img {
@@ -54,15 +54,19 @@ img {
 .content p {
     color: hsl(220, 15%, 55%);
     font-size: 15px;
+    margin-top: 16px;
+    line-height: 18.9px;
+    letter-spacing: 0.19px ;
 }
 
 .content h1 {
     color: #193251;
     font-size: 21px;
-    margin-top: 20px;
-    margin-bottom: 16px;
+    line-height: 27.72px;
+    margin-bottom: 16px; 
+    margin-top: 24px;
 }
 
 .attribution {
-    text-align: center;
+    text-align: center;  
 }
