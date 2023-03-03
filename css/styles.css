@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    width: min-content; padding: 20px;
+    width: min-content; padding: 16px;
 }
 
 figure {
@@ -53,7 +53,7 @@ img {
     line-height: 18.9px;
     letter-spacing: 0.19px;
     margin-top: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     padding-left: 16px;
     padding-right: 16px;
 }
