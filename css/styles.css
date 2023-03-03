@@ -19,7 +19,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
     min-height: 100%;
 }
 
@@ -30,15 +29,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    height: 497px;
-    width: 320px;  
+    width: min-content; padding: 20px;
 }
 
 figure {
     height: 288px;
     width: 288px;
     margin: 0; 
-    margin-top: -6px; 
 }
 
 img {
@@ -48,20 +45,22 @@ img {
 
 .content {
     text-align: center;
-    width: 80%;
 }
 
 .content p {
-    color: hsl(220, 15%, 55%);
+    color: #7D889E;
     font-size: 15px;
-    margin-top: 16px;
     line-height: 18.9px;
-    letter-spacing: 0.19px ;
+    letter-spacing: 0.19px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .content h1 {
     color: #193251;
-    font-size: 21px;
+    font-size: 22px;
     line-height: 27.72px;
     margin-top: 24px;
     margin-bottom: 16px; 
